@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <div style={{textAlign: 'center',fontWeight:'bold',marginTop: '10px',color: 'black'}}>Chip Component</div>
+      <div style={{textAlign: 'center',fontWeight:'bold',marginTop: '10px',marginBottom: '10px',color: 'black'}}>Chip Component</div>
         <ChipComponent options={options} nameKey="name" emailKey="email" imageKey='avatar'/>
       </header>
     </div>
